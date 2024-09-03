@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - changeSet:
+      id: create-teacher-student
+      author: Will
+      changes:
+        - sqlFile:
+            path: db/script/create-teacher-student-table.sql
