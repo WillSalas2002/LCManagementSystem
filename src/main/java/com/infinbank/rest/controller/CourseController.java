@@ -34,7 +34,7 @@ import java.util.Map;
  * @author WILL SALAS
  */
 @RestController
-@RequestMapping(value = "/apis/courses", produces = MediaType.APPLICATION_JSON_VALUE, consumes = MediaType.APPLICATION_JSON_VALUE)
+@RequestMapping(value = "/api/courses", produces = MediaType.APPLICATION_JSON_VALUE, consumes = MediaType.APPLICATION_JSON_VALUE)
 @RequiredArgsConstructor
 public class CourseController {
     private final CourseService courseService;
